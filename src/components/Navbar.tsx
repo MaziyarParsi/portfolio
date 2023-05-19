@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
-import { styles } from "../config/styles";
-import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
-import { useState } from "react";
+import { Link } from 'react-router-dom';
+import { styles } from '../config/styles';
+import { navLinks } from '../constants';
+import { logo, menu, close } from '../assets';
+import { useState } from 'react';
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
+  const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
   return (
     <nav
@@ -16,10 +16,10 @@ const Navbar = () => {
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive(""), window.scrollTo(0, 0);
+            setActive(''), window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
+          <img src={logo} alt="logo" className="w-16 h-16 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Maziyar <span className="sm:block hidden mx-1">Parsi</span>
           </p>
@@ -29,7 +29,7 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
+                active === link.title ? 'text-white' : 'text-secondary'
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
@@ -46,7 +46,7 @@ const Navbar = () => {
           />
           <div
             className={`${
-              !toggle ? "hidden" : "flex"
+              !toggle ? 'hidden' : 'flex'
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <li
                   key={link.id}
                   className={`${
-                    active === link.title ? "text-white" : "text-secondary"
+                    active === link.title ? 'text-white' : 'text-secondary'
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setActive(link.title);

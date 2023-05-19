@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion';
 import { styles } from '../config/styles';
-import { ComputersCanvas } from './canvas';
+import Lottie from 'lottie-react';
+import Programming from '../assets/lottie/programming.json';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto ">
+    <section className="relative w-full h-screen mx-auto  ">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[32px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} relative inset-0 top-[100px] max-w-7xl mx-auto flex  lg:flex-row items-start gap-5`}
       >
         {/* violet line */}
         <div className="flex flex-col justify-center items-center mt-5">
@@ -23,8 +24,13 @@ const Hero = () => {
             <br /> experience building website and web applications
           </p>
         </div>
+        <Lottie
+          animationData={Programming}
+          loop={true}
+          className="hidden lg:block"
+        />
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
     </section>
   );
 };
