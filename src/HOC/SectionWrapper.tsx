@@ -16,9 +16,7 @@ const SectionWrapper = (Component: React.FC, idName: string) =>
         viewport={{ once: true, amount: 0.25 }}
         className={`${styles.padding} mx-w-7xl mx-auto relative z-0`}
       >
-        <span className="hash-span" id={idName}>
-          &nbsp
-        </span>
+        <span className="hash-span" id={idName}></span>
         <Component />
       </motion.section>
     );
