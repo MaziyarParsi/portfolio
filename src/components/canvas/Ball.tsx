@@ -1,7 +1,6 @@
 import {
   Decal,
   Float,
-  Html,
   OrbitControls,
   Preload,
   useTexture,
