@@ -36,7 +36,7 @@ import learnwise from './company/learnwise.png';
 
 import persiajs from './persiajs.png';
 import misalearn from './misa-learn.png';
-import tripguide from './tripguide.png';
+import tourandto from './tourandto.png';
 
 export {
   logo,
@@ -66,7 +66,7 @@ export {
   tesla,
   persiajs,
   misalearn,
-  tripguide,
+  tourandto,
   wordpress,
   react,
   prisma,
