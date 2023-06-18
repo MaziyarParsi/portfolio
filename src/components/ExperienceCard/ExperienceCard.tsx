@@ -37,11 +37,11 @@ const ExperienceCard = ({
           {companyName}
         </p>
       </div>
-      <ul className="mt-5 list-disc space-y-2 px-4">
+      <ul className="mt-5  space-y-2 px-4">
         {points.map((point) => (
           <li
             key={point}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-white-100 text-[14px] pl-1 tracking-wider first:list-none  list-disc"
           >
             {point}
           </li>

@@ -28,6 +28,11 @@ import meta from './company/meta.png';
 import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
+import ponisha from './company/ponisha.png';
+import mapsa from './company/mapsa.png';
+import yasGroup from './company/yas-group.png';
+import mediana from './company/mediana.jpeg';
+import learnwise from './company/learnwise.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -65,4 +70,9 @@ export {
   wordpress,
   react,
   prisma,
+  yasGroup,
+  ponisha,
+  mediana,
+  mapsa,
+  learnwise,
 };
