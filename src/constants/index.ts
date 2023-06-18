@@ -16,8 +16,8 @@ import {
   figma,
   ponisha,
   mapsa,
-  carrent,
-  jobit,
+  persiajs,
+  misalearn,
   tripguide,
   threejs,
   yasGroup,
@@ -203,68 +203,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Persia JS',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Teaching JavaScript to Persian developers is one of our services. As one of the community co-founders, I help them Learn front-end development. Im also in charge of writing and publishing related articles.',
     tags: [
       {
-        name: 'react',
+        name: 'Next JS',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'emotion',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'sentry',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: persiajs,
+    source_code_link: 'https://persiajs.dev/',
   },
   {
-    name: 'Job IT',
+    name: 'MisaLearn',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'LearnWise is an e-Learning app generator with cloud-based LMS trying to solve self-branding and content customization',
     tags: [
       {
-        name: 'react',
+        name: 'MobX',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'Tailwind',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'TypeScript',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: misalearn,
+    source_code_link: 'https://studio.misalearn.com/',
   },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
-  },
+  // {
+  //   name: 'Trip Guide',
+  //   description:
+  //     'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: 'https://github.com/',
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

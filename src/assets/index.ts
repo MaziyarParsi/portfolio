@@ -34,8 +34,8 @@ import yasGroup from './company/yas-group.png';
 import mediana from './company/mediana.jpeg';
 import learnwise from './company/learnwise.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
+import persiajs from './persiajs.png';
+import misalearn from './misa-learn.png';
 import tripguide from './tripguide.png';
 
 export {
@@ -64,8 +64,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  persiajs,
+  misalearn,
   tripguide,
   wordpress,
   react,
