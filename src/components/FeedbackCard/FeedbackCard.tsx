@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../utils/motiontils';
+import { linkedin } from '../../assets';
 
 interface IProps {
   index: number;
@@ -8,6 +9,7 @@ interface IProps {
   designation: string;
   company: string;
   image: string;
+  link: string;
 }
 
 const FeedbackCard: React.FC<IProps> = ({
@@ -17,15 +19,16 @@ const FeedbackCard: React.FC<IProps> = ({
   designation,
   company,
   image,
+  link
 }) => (
   <motion.div
     variants={fadeIn('', 'spring', index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+    className="bg-black-200 p-10 rounded-3xl xs:w-[360px] w-full"
   >
     <p className="text-white font-black text-[48px]">"</p>
 
     <div className="mt-1">
-      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+      <p className="text-white tracking-wider text-[18px] justify-center">{testimonial}</p>
 
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
@@ -43,6 +46,11 @@ const FeedbackCard: React.FC<IProps> = ({
           className="w-10 h-10 rounded-full object-cover"
         />
       </div>
+    </div>
+    <div>
+      <a href={link} target='_blank'>
+      <img src={linkedin} alt='linkedin'  className='rounded-sm w-5 h-5 mt-2 cursor-pointer'/>
+      </a>
     </div>
   </motion.div>
 );

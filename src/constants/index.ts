@@ -1,7 +1,7 @@
 import {
   mobile,
   wordpress,
-  creator,
+  // creator,
   react,
   javascript,
   typescript,
@@ -15,14 +15,16 @@ import {
   git,
   figma,
   ponisha,
-  mapsa,
+  // mapsa,
   persiajs,
   misalearn,
   tourandto,
   threejs,
-  yasGroup,
+  kianDigital,
   mediana,
   learnwise,
+  node
+  // linkedin
 } from '../assets';
 
 export const navLinks = [
@@ -46,6 +48,10 @@ const services = [
     icon: react,
   },
   {
+    title: 'NodeJS Developer',
+    icon: node,
+  },
+  {
     title: 'React Native Developer',
     icon: mobile,
   },
@@ -53,10 +59,7 @@ const services = [
     title: 'WordPress',
     icon: wordpress,
   },
-  {
-    title: 'Content Creator',
-    icon: creator,
-  },
+ 
 ];
 
 const technologies = [
@@ -112,23 +115,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Yas.group',
-    icon: yasGroup,
-    iconBg: '#383E56',
-    date: 'Sep 2019 - Feb 2020',
-    points: [
-      'YAS is emerging financial service provider in Iran, I was responsible for:',
-      'Design user interface of admin panel for computing and analyzing cryptocurrency data',
-      'Implement the user interface with ReactJS, Redux Saga, Styled Component',
-    ],
-  },
-  {
-    title: 'Senior Frontend Engineer',
-    company_name: 'Ponisha',
+    title: 'Web developer',
+    company_name: 'Freelance',
     icon: ponisha,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2019 - Oct 2021',
+    iconBg: '#383E56',
+    date: 'Jan 2015 - May 2018',
     points: [
       "As a designer and programmer, I have designed and implemented more than 10 websites. Depending on customer's need, different technologies such as WordPress, HTML CSS JavaScript PHP ReactJS were used.",
     ],
@@ -138,23 +129,27 @@ const experiences = [
     company_name: 'Mediana',
     icon: mediana,
     iconBg: '#9AC8BE',
-    date: 'Oct 2021 - Jun 2022',
+    date: 'Feb 2018 - Feb 2020',
     points: [
       'Mediana is a knowledge-based company with more than 200,000 clients in Iran, 24 developers on the project. In Mediana re-branding process, I am responsible for:',
-      'implement the new UI design with ReactJS, Typescript, Redux, Redux Saga, JSS.',
       'Improve website performance .',
       'Participate in weakly front-end knowledge sharing sessions and sharing some new information with my colleagues',
       'Delivering features and fixing bugs',
+      'implement the new UI design with ReactJS, Typescript, Redux, Redux Saga, JSS.',
     ],
   },
   {
-    title: 'Teaching Assistant',
-    company_name: 'Mapsa',
-    icon: mapsa,
-    iconBg: '#E6DEDD',
-    date: 'Nov 2022 - Present',
+    title: 'Senior Frontend Engineer',
+    company_name: 'Kian Digital',
+    icon: kianDigital,
+    iconBg: '#FFF',
+    date: 'March 2020 - Sep 2022',
     points: [
-      'Teaching front-end development to Students in Mapsa HR, including HTML,CSS,JavaScript & React JS.My main responsibility is review students exercises and teach them how to write better codes & debug their own codes.Its just a great experience to work individually with students to teach them how to start their career in the front-end world.',
+      'Kian digital is one of the lead financial enterprises (FINTECH) in Iran,with more than 300,000 active users',
+      'Worked with a team of 5 developers and graduates to address obstacles and provide groundbreaking solutions that significantly benefited the project.',
+      'Code review,Pair programming and mentoring junior developers.',
+      'Unified all the async network calls from view and handled them with proper side effect handler using redux-toolkit and redux-thunk.',
+      'Drove a notable 2-second reduction in Stoke market map page load time, significantly improving user experience and retention rates',
     ],
   },
   {
@@ -165,10 +160,10 @@ const experiences = [
     date: 'Jul 2022 - Present',
     points: [
       'LearnWise is an e-Learning app generator with cloud-based LMS trying to solve self-branding and content customization. in this company, I am in charge of :',
-      'Switching former Angular admin panel to a brand new admin dashboard panel with React.',
-      'Design and implementing software architecture in Front-end development.',
-      'Helping Project Managers on task definitions, chunking and time estimation.',
-      'Implementing new features to the previous project with React, Typescript, Mobx , Tailwind , React-query and etc...',
+      'Creating a brand-new admin dashboard panel with React, While we were implementing the new design system, I implemented Storybook in order to make the collaboration between design and development much better. ',
+      'Design and implementing software architecture and best practices that boosted website performance by 40% according lighthouse test. ',
+      'Worked on creating some of our most important marketing pages, reducing duration by 6 seconds and improving user experience',
+      'Writing end-to-end test for making sure of correct user flows.',
     ],
   },
 ];
@@ -180,17 +175,20 @@ const testimonials = [
     name: 'Ehsan Gazar',
     designation: 'Technical Team Lead',
     company: 'Mecca',
+    link:"https://www.linkedin.com/in/gazar/",
     image:
-      'https://media.licdn.com/dms/image/C5603AQHWuhLqZhJ1vA/profile-displayphoto-shrink_100_100/0/1659587216801?e=1692835200&v=beta&t=D7Zv3sLbbV27l56q4xywGSUXFKby8tHabzAgyN7QKdo',
+      'https://media.licdn.com/dms/image/D5603AQEO0i6xK5i3pA/profile-displayphoto-shrink_400_400/0/1704170455986?e=1724889600&v=beta&t=q8EE6d57UDBtG230kxQ_hsej-rOO3G_a5tMdI5v1EGY',
   },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: 'Chris Brown',
-  //   designation: 'COO',
-  //   company: 'DEF Corp',
-  //   image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  // },
+  {
+    testimonial:
+      "Maziar is a highly skilled professional who brings a positive attitude and strong work ethic to every task he undertakes. His attention to detail and commitment to excellence is truly commendable.",
+    name: 'Niloofar Arazkhani',
+    designation: ' Researcher',
+    company: 'University of Pittsburgh',
+    image: 'https://scholar.googleusercontent.com/citations?view_op=view_photo&user=VOXDJ-4AAAAJ&citpid=5',
+    // image: 'https://x.com/NiloofarAraz/photo',
+    link:"https://www.linkedin.com/in/niloofar-arazkhani-1581025b/"
+  },
   // {
   //   testimonial:
   //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",

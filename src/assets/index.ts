@@ -17,6 +17,7 @@ import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import mongodb from './tech/mongodb.png';
 import nodejs from './tech/nodejs.png';
+import node from './tech/node.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
@@ -33,6 +34,8 @@ import mapsa from './company/mapsa.png';
 import yasGroup from './company/yas-group.png';
 import mediana from './company/mediana.jpeg';
 import learnwise from './company/learnwise.png';
+import kianDigital from './company/kianDigital.png';
+import linkedin from './company/LinkedIn.png';
 
 import persiajs from './persiajs.png';
 import misalearn from './misa-learn.png';
@@ -75,4 +78,7 @@ export {
   mediana,
   mapsa,
   learnwise,
+  kianDigital,
+  linkedin,
+  node
 };

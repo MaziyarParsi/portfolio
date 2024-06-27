@@ -1,9 +1,9 @@
-import { motion } from 'framer-motion';
-import { styles } from '../config/styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motiontils';
-import ServiceCard from './ServiceCard/ServiceCard';
-import { SectionWrapper } from '../HOC';
+import { motion } from "framer-motion";
+import { styles } from "../config/styles";
+import { services } from "../constants";
+import { fadeIn, textVariant } from "../utils/motiontils";
+import ServiceCard from "./ServiceCard/ServiceCard";
+import { SectionWrapper } from "../HOC";
 
 const About = () => {
   return (
@@ -14,15 +14,16 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
+        variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a front-end developer with industry experience building website and
-        web applications. I am specialized in JavaScript and have professional
-        experience working with React, Next JS & Vanila JavaScript. I have
-        always been a hard-working developer looking for new challenges and
-        different experiences . I love teaching, so recently started my online
-        courses Mentorship, proud to say that I have over 150 students.
+        i’m Maziar, front-end developer with more than 6 years of experience in
+        creating responsive, user-friendly web applications using HTML, CSS, JS,
+        and modern JS frameworks like React, I have strong focus on system
+        design and software architecture & consider myself skillfull in
+        communication, collaboration, and technical analysis. I love teaching,
+        so recently started my online courses Mentorship, proud to say that I
+        have over 150 students.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
@@ -38,4 +39,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, 'about');
+export default SectionWrapper(About, "about");

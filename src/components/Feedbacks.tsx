@@ -28,6 +28,7 @@ const Feedbacks = () => {
             image={testimonial.image}
             name={testimonial.name}
             testimonial={testimonial.testimonial}
+            link={testimonial.link}
           />
         ))}
       </div>
